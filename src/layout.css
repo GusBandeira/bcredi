@@ -1,0 +1,16 @@
+.root {
+	max-height: 100vh;
+}
+
+body {
+	margin: 0;
+	overflow: hidden;
+	font-family: arial;
+}
+
+@media screen and (max-width: 992px){
+	body {
+		overflow: auto;
+	}
+}
+
